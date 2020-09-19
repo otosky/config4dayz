@@ -55,6 +55,9 @@ brew install pyenv
 brew install pyenv-virtualenv
 ```
 
-TODO:
-- add vsCode settings
+## Git
 
+1. Install pre-commit
+```bash
+brew install pre-commit
+```
