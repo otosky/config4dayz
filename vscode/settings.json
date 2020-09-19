@@ -1,0 +1,62 @@
+{
+    "editor.rulers": [80,120],
+    "window.zoomLevel": 1,
+    "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "terminal.integrated.env.osx": {
+        "PATH": "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    },
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontFamily": "Jetbrains Mono",
+    "workbench.startupEditor": "newUntitledFile",
+    "markdownlint.customRules": [
+        "{docsmsft.docs-linting}/markdownlint-custom-rules/rules.js"
+    ],
+    "markdownlint.config": {
+        "MD025": {
+            "front_matter_title": ""
+        },
+        "MD028": false
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "remimarsal.prettier-now"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "remimarsal.prettier-now"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "python.linting.pylintEnabled": false,
+    "python.linting.mypyEnabled": true,
+    "python.linting.enabled": true,
+
+    "vim.hlsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["<C-l>"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<C-n>"],
+            "commands": [":nohl"]
+        }
+    ],
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": ["#585858"],
+    "vim.statusBarColors.insert": ["#007acc"],
+    //"vim.statusBarColors.normal": ["#007acc"],
+    //"vim.statusBarColors.insert": ["#afdf00", "#005f00"],
+    "vim.statusBarColors.visual": ["#dfdfff", "#5f00af"],
+    "vim.statusBarColors.commandlineinprogress": ["#afdf00", "#005f00"],
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
+}
