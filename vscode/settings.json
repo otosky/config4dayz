@@ -48,8 +48,8 @@
         }
     ],
     "vim.statusBarColorControl": true,
-    "vim.statusBarColors.normal": ["#585858"],
-    "vim.statusBarColors.insert": ["#007acc"],
+    "vim.statusBarColors.normal": ["#585858", "#ffffff],
+    "vim.statusBarColors.insert": ["#007acc", "#ffffff],
     //"vim.statusBarColors.normal": ["#007acc"],
     //"vim.statusBarColors.insert": ["#afdf00", "#005f00"],
     "vim.statusBarColors.visual": ["#dfdfff", "#5f00af"],
