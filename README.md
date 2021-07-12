@@ -8,10 +8,12 @@
 
 0. Install zsh
 
-1. Install iTerm2
+1. Install Homebrew
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
+
+1. Install iTerm2
 
 2. Install oh-my-zsh
 
