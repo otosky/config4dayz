@@ -63,3 +63,27 @@ brew install pyenv-virtualenv
 ```bash
 brew install pre-commit
 ```
+
+## TODO
+
+add sections for
+
+Kubernetes:
+
+- kubectl
+- kubens/kubectx
+- k9s
+- stern
+- helm
+- fluxctl
+
+Cloud
+
+- awscli
+- whatever azures cli tool is
+- gcloud
+
+Terraform
+pgcli
+docker
+sdkman
