@@ -30,32 +30,50 @@ brew install direnv
 
 ## Vim
 
-0. Ensure vim is updated
+0. Install vim through `asdf`
 ```
-brew upgrade vim
+# pick whatever version you want > 8.0
+asdf plugin add vim
+asdf install vim 8.2.3364
 ```
 
-0. .vimrc will install Vim-Plug
+1. Add aliases to .oh-my-zsh Custom folder:
+```
+cp aliases.zsh "$ZSH_CUSTOM"
+```
 
-0. .vimrc will have vim-plug install coc-nvim
+2. Copy over .vimrc file
+```
+cp .vimrc "$HOME"
+```
+.vimrc will install Vim-Plug
+.vimrc will have vim-plug install coc-nvim
 
-1. Install coc-python
+3. Install coc-python
 ```
 # in vim
 :CocInstall coc-python
 ```
 
 ## Python
-1. Install pyenv
+1. Install python version through `asdf`
 ```bash
-brew update
-brew install pyenv
+asdf plugin add python
+asdf install python <VERSION>
+# optional - set global version
+asdf global python <VERSION>
 ```
 
-2. Install pyenv virtualenv 
+2. Install poetry version through `asdf`
 ```bash
-brew install pyenv-virtualenv
+asdf plugin add poetry
+asdf install poetry <VERSION>
+# optional - set global version
+asdf global poetry <VERSION>
 ```
+
+Note: probably worthwhile to add aliases for python and poetry to use asdf global versions.
+
 
 ## Git
 
