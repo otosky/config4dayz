@@ -72,9 +72,6 @@ asdf install poetry <VERSION>
 asdf global poetry <VERSION>
 ```
 
-Note: probably worthwhile to add aliases for python and poetry to use asdf global versions.
-
-
 ## Git
 
 1. Install pre-commit
