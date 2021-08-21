@@ -8,7 +8,7 @@ set smarttab
 set backspace=indent,eol,start
 set hlsearch
 
-# install vim-plug if not exists
+" install vim-plug if not exists:
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
