@@ -1,3 +1,5 @@
+This is now superseded by https://github.com/otosky/dotfiles
+
 # Dev-Related RC Files
 
 ## System
